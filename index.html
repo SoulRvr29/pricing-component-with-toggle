@@ -19,15 +19,15 @@
     />
   </head>
   <body
-    class="font-Montserrat bg-VeryLightGrayishBlue text-GrayishBlue grid justify-center w-screen text-base text-normal"
+    class="font-Montserrat bg-VeryLightGrayishBlue text-GrayishBlue grid justify-center w-screen text-base text-normal bg-[url('/images/bg-top.svg')] bg-no-repeat bg-[right_-200px_top]"
   >
     <header class="grid text-center my-20">
       <h1 class="text-3xl mb-11">Our Pricing</h1>
-      <div class="flex justify-center">
+      <div class="flex justify-center items-center">
         <p class="text-LightGrayishBlue">Annually</p>
         <label for="trigger"></label>
         <input
-          class="w-14 mx-6 bg-Gradient2"
+          class="w-14 mx-6 range accent-white bg-red-500 appearance-none bg-transparent [&::-webkit-slider-runnable-track]:rounded-full [&::-webkit-slider-runnable-track]:bg-gradient-to-r [&::-webkit-slider-runnable-track]:from-Gradient1 [&::-webkit-slider-runnable-track]:to-Gradient2 [&::-webkit-slider-runnable-track]:p-1 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:h-6 [&::-webkit-slider-thumb]:w-6 [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-white hover:cursor-pointer hover:opacity-50"
           type="range"
           min="0"
           max="1"
@@ -59,13 +59,13 @@
           Send up to 3 GB
         </p>
         <button
-          class="text-xs bg-gradient-to-r from-Gradient1 to-Gradient2 p-3 tracking-widest rounded-md text-VeryLightGrayishBlue w-full mt-8"
+          class="text-xs bg-gradient-to-r from-Gradient1 to-Gradient2 p-3 tracking-widest rounded-md text-VeryLightGrayishBlue w-full mt-8 hover:bg-none border border-Gradient1 hover:text-Gradient2 hover:border hover:border-Gradient2 hover:transition-all"
         >
           LEARN MORE
         </button>
       </section>
       <section
-        class="bg-gradient-to-br from-Gradient1 to-Gradient2 text-VeryLightGrayishBlue rounded-xl p-8 py-12"
+        class="bg-gradient-to-br from-Gradient1 to-Gradient2 text-VeryLightGrayishBlue rounded-xl p-8 pt-14"
       >
         <h2 class="text-lg">Professional</h2>
         <div
@@ -83,7 +83,7 @@
           Send up to 10 GB
         </p>
         <button
-          class="text-xs bg-white p-3 tracking-widest rounded-md text-Gradient2 w-full mt-8"
+          class="text-xs bg-white p-3 tracking-widest rounded-md text-Gradient2 w-full mt-8 border border-white hover:bg-transparent hover:text-white"
         >
           LEARN MORE
         </button>
@@ -107,17 +107,23 @@
           Send up to 20 GB
         </p>
         <button
-          class="text-xs bg-gradient-to-r from-Gradient1 to-Gradient2 p-3 tracking-widest rounded-md text-VeryLightGrayishBlue w-full mt-8"
+          class="text-xs bg-gradient-to-r from-Gradient1 to-Gradient2 p-3 tracking-widest rounded-md text-VeryLightGrayishBlue w-full mt-8 hover:bg-none border border-Gradient1 hover:text-Gradient2 hover:border hover:border-Gradient2"
         >
           LEARN MORE
         </button>
       </section>
     </main>
-    <!-- <div class="p-5 justify-self-center">
+    <footer class="mx-auto">
       Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      <a
+        class="text-DarkGrayishBlue hover:text-Gradient2"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div> -->
+      >. Coded by
+      <a class="text-DarkGrayishBlue hover:text-Gradient2" href="#"
+        >Paweł Chudecki</a
+      >.
+    </footer>
   </body>
 </html>
