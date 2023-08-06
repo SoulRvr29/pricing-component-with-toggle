@@ -17,6 +17,10 @@ module.exports = {
       fontSize: {
         normal: "15px",
       },
+      backgroundImage: {
+        "bg-top": "url(./images/bg-top.svg)",
+        "bg-bottom": "url(./images/bg-bottom.svg)",
+      },
     },
   },
   plugins: [],
