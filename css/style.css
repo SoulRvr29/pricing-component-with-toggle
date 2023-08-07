@@ -689,12 +689,12 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\.\/dist\/images\/bg-top\.svg\'\)\] {
-  background-image: url('./dist/images/bg-top.svg');
-}
-
 .bg-\[url\(\'\/images\/bg-bottom\.svg\'\)\] {
   background-image: url('/images/bg-bottom.svg');
+}
+
+.bg-\[url\(\'\/images\/bg-top\.svg\'\)\] {
+  background-image: url('/images/bg-top.svg');
 }
 
 .bg-gradient-to-br {
@@ -705,16 +705,16 @@ video {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
-.bg-\[url\(\'\/images\/bg-top\.svg\'\)\] {
-  background-image: url('/images/bg-top.svg');
-}
-
 .bg-\[url\(\'\/dist\/images\/bg-top\.svg\'\)\] {
   background-image: url('/dist/images/bg-top.svg');
 }
 
-.bg-\[url\(\'git\/images\/bg-top\.svg\'\)\] {
-  background-image: url('git/images/bg-top.svg');
+.bg-\[url\(\'dist\/images\/bg-bottom\.svg\'\)\] {
+  background-image: url('dist/images/bg-bottom.svg');
+}
+
+.bg-\[url\(\'\/dist\/images\/bg-bottom\.svg\'\)\] {
+  background-image: url('/dist/images/bg-bottom.svg');
 }
 
 .from-Gradient1 {
