@@ -18,7 +18,7 @@ module.exports = {
         normal: "15px",
       },
       backgroundImage: {
-        "bg-top": "url(./images/bg-top.svg)",
+        "bg-top": "url(./dist/images/bg-top.svg)",
         "bg-bottom": "url(./images/bg-bottom.svg)",
       },
     },
