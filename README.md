@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/pricing-component-with-toggle-O15ubjJeh6](https://www.frontendmentor.io/solutions/pricing-component-with-toggle-O15ubjJeh6)
 - Live Site URL: [https://soulrvr29.github.io/pricing-component-with-toggle/](https://soulrvr29.github.io/pricing-component-with-toggle/)
 
 ### Built with
