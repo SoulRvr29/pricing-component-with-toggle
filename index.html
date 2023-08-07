@@ -21,7 +21,10 @@
   <body
     class="font-Montserrat bg-VeryLightGrayishBlue text-GrayishBlue grid justify-center w-screen text-base text-normal bg-[url('/images/bg-top.svg')] bg-no-repeat bg-[right_-200px_top]"
   >
-    <header class="grid text-center my-20">
+    <div
+      class="bg-[url('/images/bg-bottom.svg')] bg-no-repeat bg-[left_bottom] -z-10 max-lg:hidden absolute w-screen h-screen"
+    ></div>
+    <header class="grid text-center max-lg:my-20 my-16">
       <h1 class="text-3xl mb-11">Our Pricing</h1>
       <div class="flex justify-center items-center">
         <p class="text-LightGrayishBlue">Annually</p>
@@ -33,29 +36,40 @@
           max="1"
           name="trigger"
           id="trigger"
+          value="1"
+          oninput="priceVal1.innerText = this.value == 1 ? '' : '1';
+          priceVal2.innerText = this.value == 1 ? '' : '1';
+          priceVal3.innerText = this.value == 1 ? '' : '1'"
         />
         <p class="text-LightGrayishBlue">Monthly</p>
       </div>
     </header>
     <main
-      class="text-center flex max-lg:flex-col max-lg:gap-8 w-screen px-6 mb-8 max-w-xl justify-center"
+      class="text-center flex max-lg:flex-col max-lg:gap-8 w-screen px-6 mb-8 max-lg:max-w-xl max-w-[1100px] justify-center"
     >
       <section
-        class="bg-white rounded-l-xl max-lg:rounded-xl p-8 max-lg:my-0 my-6"
+        class="bg-white rounded-l-xl max-lg:rounded-xl p-8 max-lg:my-0 my-6 w-full"
       >
         <h2 class="text-lg">Basic</h2>
         <div
-          class="price text-6xl text-DarkGrayishBlue flex items-center my-7 justify-center"
+          class="price max-lg:text-6xl text-7xl text-DarkGrayishBlue flex items-center my-7 justify-center"
         >
-          <span class="text-4xl mr-2">&dollar;</span>19.99
+          <span class="text-4xl mr-2">&dollar;</span
+          ><span id="priceVal1"></span>19.99
         </div>
-        <p class="border-b border-LightGrayishBlue py-2 text-base border-t">
+        <p
+          class="border-b border-LightGrayishBlue max-lg:py-2 py-[14px] text-base border-t"
+        >
           500 GB Storage
         </p>
-        <p class="border-b border-LightGrayishBlue py-2 text-base">
+        <p
+          class="border-b border-LightGrayishBlue max-lg:py-2 py-[14px] text-base"
+        >
           2 Users Allowed
         </p>
-        <p class="border-b border-LightGrayishBlue py-2 text-base">
+        <p
+          class="border-b border-LightGrayishBlue max-lg:py-2 py-[14px] text-base"
+        >
           Send up to 3 GB
         </p>
         <button
@@ -65,21 +79,28 @@
         </button>
       </section>
       <section
-        class="bg-gradient-to-br from-Gradient1 to-Gradient2 text-VeryLightGrayishBlue rounded-xl p-8 pt-14"
+        class="bg-gradient-to-br from-Gradient1 to-Gradient2 text-VeryLightGrayishBlue rounded-xl p-8 pt-14 w-full"
       >
         <h2 class="text-lg">Professional</h2>
         <div
-          class="price text-6xl text-VeryLightGrayishBlue flex items-center my-7 justify-center"
+          class="price max-lg:text-6xl text-7xl text-VeryLightGrayishBlue flex items-center my-7 justify-center"
         >
-          <span class="text-4xl mr-2">&dollar;</span>24.99
+          <span class="text-4xl mr-2">&dollar;</span
+          ><span id="priceVal2"></span>24.99
         </div>
-        <p class="border-b border-LightGrayishBlue py-2 text-base border-t">
+        <p
+          class="border-b border-LightGrayishBlue max-lg:py-2 py-[14px] text-base border-t"
+        >
           1 TB Storage
         </p>
-        <p class="border-b border-LightGrayishBlue py-2 text-base">
+        <p
+          class="border-b border-LightGrayishBlue max-lg:py-2 py-[14px] text-base"
+        >
           5 Users Allowed
         </p>
-        <p class="border-b border-LightGrayishBlue py-2 text-base">
+        <p
+          class="border-b border-LightGrayishBlue max-lg:py-2 py-[14px] text-base"
+        >
           Send up to 10 GB
         </p>
         <button
@@ -89,21 +110,28 @@
         </button>
       </section>
       <section
-        class="rounded-r-xl max-lg:rounded-xl p-8 bg-white max-lg:my-0 my-6"
+        class="rounded-r-xl max-lg:rounded-xl p-8 bg-white max-lg:my-0 my-6 w-full"
       >
         <h2 class="text-lg">Master</h2>
         <div
-          class="price text-6xl text-DarkGrayishBlue flex items-center my-7 justify-center"
+          class="price max-lg:text-6xl text-7xl text-DarkGrayishBlue flex items-center my-7 justify-center"
         >
-          <span class="text-4xl mr-2">&dollar;</span>39.99
+          <span class="text-4xl mr-2">&dollar;</span
+          ><span id="priceVal3"></span>39.99
         </div>
-        <p class="border-b border-LightGrayishBlue py-2 text-base border-t">
+        <p
+          class="border-b border-LightGrayishBlue max-lg:py-2 py-[14px] text-base border-t"
+        >
           2 TB Storage
         </p>
-        <p class="border-b border-LightGrayishBlue py-2 text-base">
+        <p
+          class="border-b border-LightGrayishBlue max-lg:py-2 py-[14px] text-base"
+        >
           10 Users Allowed
         </p>
-        <p class="border-b border-LightGrayishBlue py-2 text-base">
+        <p
+          class="border-b border-LightGrayishBlue max-lg:py-2 py-[14px] text-base"
+        >
           Send up to 20 GB
         </p>
         <button
@@ -113,15 +141,17 @@
         </button>
       </section>
     </main>
-    <footer class="mx-auto">
+    <footer class="mx-auto p-5 text-center max-lg:text-xs">
       Challenge by
       <a
         class="text-DarkGrayishBlue hover:text-Gradient2"
-        href="https://www.frontendmentor.io?ref=challenge"
+        href="https://www.frontendmentor.io/challenges/pricing-component-with-toggle-8vPwRMIC"
         target="_blank"
         >Frontend Mentor</a
       >. Coded by
-      <a class="text-DarkGrayishBlue hover:text-Gradient2" href="#"
+      <a
+        class="text-DarkGrayishBlue hover:text-Gradient2"
+        href="https://www.frontendmentor.io/profile/SoulRvr29"
         >Paweł Chudecki</a
       >.
     </footer>
