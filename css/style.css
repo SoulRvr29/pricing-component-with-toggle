@@ -693,7 +693,7 @@ video {
   background-image: url('/images/bg-bottom.svg');
 }
 
-.bg-\[url\(\'\/images\/bg-top\.svg\'\)\] {
+.bg-\[url\(\'\.\.\/images\/bg-top\.svg\'\)\] {
   background-image: url('/images/bg-top.svg');
 }
 
@@ -705,7 +705,7 @@ video {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
-.bg-\[url\(\'\/dist\/images\/bg-top\.svg\'\)\] {
+.bg-\[url\(\'\.\.\/images\/bg-top\.svg\'\)\] {
   background-image: url('/dist/images/bg-top.svg');
 }
 
